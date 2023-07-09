@@ -34,11 +34,15 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
-For creating api 
+## Creating Api Google Authentication
 
 https://console.cloud.google.com/
 
 GoogleProvider({
     clientId: '',
     clientSecret: '',
-})
+});
+
+## MongoDB Connection
+
+https://www.mongodb.com/cloud/atlas/register
