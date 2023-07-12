@@ -46,3 +46,19 @@ GoogleProvider({
 ## MongoDB Connection
 
 https://www.mongodb.com/cloud/atlas/register
+
+For Viewing the collection > Goto Database on left hand sidebar > Select Cluster > Select Collection
+
+
+## NextAuth Js
+https://next-auth.js.org/configuration/options
+
+## creating NEXTAUTH_SECRET from terminal by using below command 
+
+> openssl rand -base64 32
+
+else you can enter above command in below website for generating Nextauth secret
+
+CrypTool-Online
+
+https://www.cryptool.org/en/cto/openssl
