@@ -10,7 +10,7 @@ const MyProfile = () => {
 
     const { data: session } = useSession();
 
-    const[ posts, setPosts ] = useState([]);
+    const [ posts, setPosts ] = useState([]);
 
     useEffect(() => {
         const fetchPosts = async () => {
@@ -24,7 +24,7 @@ const MyProfile = () => {
       }, []);
 
     const handleEdit = () => {
-
+        
     };
 
     const handleDelete = async () => {
